@@ -1,0 +1,14 @@
+{
+  "name": "andelabs-home-session1",
+  "version": "1.0.0",
+  "description": "Repo for Andelabs Home Session One",
+  "main": "app/dataTypes.js",
+  "scripts": {
+    "test": "jasmine-node"
+  },
+  "keywords": [
+    "Andelabs"
+  ],
+  "author": "Oluwafemi Akinwa",
+  "license": "MIT"
+}
