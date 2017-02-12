@@ -1,3 +1,7 @@
+'use strict';
+
+var dataTypes = require("../app/dataTypes").dataTypes;
+
 describe("Data types tests ", function() {
   describe("Case for some falsy values", function() {
 

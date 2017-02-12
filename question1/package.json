@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jasmine-node"
   },
+  "repository":{
+    "type":"git",
+    "url":"git+https://github.com/KaiserPhemi/andelabs-home-session1.git"
+  },
   "keywords": [
     "Andelabs"
   ],
