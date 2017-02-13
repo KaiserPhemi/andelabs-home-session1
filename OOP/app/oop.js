@@ -8,13 +8,15 @@
 			this.name = name;
 			this.family = family;
 			this.maximumSpeed = maximumSpeed;
+			this.habitat = habitat;
 			this.numOfLegs = function(habitat){
-				var animalEnv = (habitat == 'Ground') ? 4 :
+				var animalHabitat = (habitat == 'Ground') ? 4 :
 								(habitat == 'Air') ? 2 :
 								(habitat == 'Water') ? 0 : "Animal habitat can only be `Ground`, `Air` or `Water` only";
-				return animalEnv;
+				return animalHabitat;
 			};
 			
 		}
 	};
+
 })();
