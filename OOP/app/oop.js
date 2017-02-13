@@ -3,12 +3,12 @@
 	"use strict";
 	module.exports = {
 
-		Animal : function(name, family, maximumSpeed, numOfLegs, habitat){
+		Animal : function(name, family, maximumSpeed, numOfLegs, age){
 
 			this.name = name;
 			this.family = family;
 			this.maximumSpeed = maximumSpeed;
-			this.habitat = habitat;
+			this.age = age;
 			this.numOfLegs = function(habitat){
 				var animalHabitat = (habitat == 'Ground') ? 4 :
 								(habitat == 'Air') ? 2 :
