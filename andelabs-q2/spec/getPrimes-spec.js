@@ -6,23 +6,19 @@ describe("Test for all types of input", function(){
 	describe("Test for numeric input ", function(){
 	
 		it("Should return [1, 2, 3] for numeric input 3", function(){
-			expect(getPrimes(3)).toBe([1, 2, 3]);
+			expect(getPrimes(3)).toEqual([1, 2, 3]);
 		});
 
 		it("Should return [1, 2, 3, 5, 7] for numeric input 7", function(){
-			expect(getPrimes(7)).toBe([1, 2, 3, 5, 7]);
+			expect(getPrimes(7)).toEqual([1, 2, 3, 5, 7]);
 		});
 
 		it("Should return `Input must be a number and greater than zero` for input 0", function(){
-			expect(getPrimes(0)).toBe('Input must be a number and greater than zero');
+			expect(getPrimes(0)).toEqual('Input must be a number and greater than zero');
 		});
 
 		it("Should return `Input must be a number and greater than zero` for input -5", function(){
-			expect(getPrimes(-5)).toBe('Input must be a number and greater than zero');
-		});
-
-		it("Should return [1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29] for numeric input 29", function(){
-			expect(getPrimes(29)).toBe([1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);
+			expect(getPrimes(-5)).toEqual('Input must be a number and greater than zero');
 		});
 		
 	});
